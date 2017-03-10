@@ -1,0 +1,436 @@
+body {
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Serif Pro', serif;
+}
+
+
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-image: linear-gradient(-225deg, rgba(0,10,-17,0.5) 24%, rgba(0,10,-17,0.5) 11%), url('assets/home-banner.jpeg');
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+  }
+.banner  p {
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgba(252, 252, 252, 0.9);
+    margin-bottom: 35px;
+  }
+
+#expertises {
+  margin-top: 35px;
+}
+.padded-botom{
+  margin-bottom: 30px;
+}
+
+.img-exp img {
+  width: 260px;
+}
+
+#appimg {
+  margin-top: 35px;
+}
+#ajusted{
+  margin-top: 40px;
+}
+#adwordsimg {
+  width: 135px;
+  margin-left: 70px;
+}
+
+.grey-wrapper {
+  background: rgba(252,252,252,0.9);
+  padding-top: 20px;
+}
+
+/* Main class */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  display: flex;
+  height: 70px;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-home {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  height: 70px;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.navbar-home a {
+text-decoration: none;
+
+}
+
+/* Optional class to fix the navbar on top */
+.navbar-wagon-fixed {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+}
+
+/* Navbar logo */
+.navbar-wagon-brand img {
+  width: 150px;
+}
+
+/* Navbar right section (with form, links, button) */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+/* Navbar item */
+.navbar-wagon-item {
+  flex: 0 1 auto;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar standard link */
+
+.navbar-wagon-item a:focus {
+  text-decoration: none;
+}
+.navbar-wagon-link {
+  margin-right: 100px;
+  letter-spacing: 0.05em;
+  color: $black;
+  opacity: 0.8;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $mint;
+    text-decoration: none;
+  }
+}
+
+.navbar-white-link {
+  margin-right: 45px;
+  letter-spacing: 0.05em;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $mint;
+    text-decoration: none;
+  }
+}
+.navbar-black-link {
+  margin-right: 60px;
+  letter-spacing: 0.05em;
+  color: $black;
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $mint;
+    text-decoration: none;
+  }
+}
+
+
+/* Navbar dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+ .big-title {
+  position: relative;
+  text-align: center;
+  padding: 1.5em 0 2em;
+  color: #222222;
+}
+
+.big-title > div {
+  font-size: 30px;
+  line-height: 1em;
+  margin: 0 !important;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.big-title:before, .big-title:after {
+  content: '';
+  display: inline-block;
+  width: 120px;
+  height: 1px;
+  background-color: $mint;
+  vertical-align: middle;
+  margin: 0 1.5em;
+}
+
+.red-message-error {
+  border-color: red;
+  border-style: double;
+}
+
+#how-it-works img {
+  width: 125px;
+  margin-bottom: 20px;
+}
+
+.title-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  >div {
+    max-width: 500px;
+  }
+}
+
+#demo-what-you-get {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#temoignages img {
+  margin-bottom: 10px;
+}
+
+#reassurance {
+  margin-bottom: 20px;
+}
+
+#reassurance {
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .text-small {
+    font-size: 12px;
+  }
+  img {
+   width: 50px;
+   margin-bottom: 5px;
+ }
+}
+.title-alternate {
+  text-align: center;
+  color: $black;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: $gidole;
+  letter-spacing: 1px;
+  &:after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 2px;
+    margin: 10px auto 0;
+    background: $black;
+  }
+}
+.box {
+  background: white;
+  opacity: 0.8;
+  padding: 25px 10px;
+  border-radius: 5px;
+  text-align: center;
+  h3 {
+    margin-top: 0;
+  }
+}
+.title-box {
+  text-align: center;
+  color: $black;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: $gidole;
+  letter-spacing: 1px;
+  &:after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 2px;
+    margin: 20px auto 0;
+    background: $peach;
+  }
+}
+#our-ideas {
+  h2 {
+    margin-top: 18px;
+  }
+  img {
+    width: 70%;
+    text-align: center;
+  }
+  .row {
+    margin-bottom: 45px;
+  }
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+}
+.wrapper-wood {
+  background-image: image-url('planche.jpg');
+  background-size: cover !important;
+  height: 245px;
+  display: flex;
+  align-items: center;
+}
+.fa-star {
+  color: #FFDF42;
+}
+.padded {
+  padding: 50px 0;
+}
+
+.package-home {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+#main-cta {
+  background-color: #6BD6CA;
+  opacity: 1;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.row {
+  margin-right: 15px;
+}
+
+
+
+
+// Your footer style
+#footer-down {
+  height: calc(100vh - 70px);
+}
+
+#footer {
+  border-top: solid 1px $mint;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+#logo-footer {
+  width: 120px;
+  margin-top: 30px;
+}
+#footer-content {
+  background: $white;
+  color: $darkgrey;
+  position: absolute;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 15px;
+}
+#footer-content p {
+  margin-top: 12px;
+}
+#footer-content ul {
+  margin-top: 10px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  a {
+    color: $darkgrey;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  li {
+    opacity: 0.6;
+  }
+}
+.social a {
+  color: $darkgrey;
+  font-size: 30px;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+#footer-content a:hover{
+  color: $mint;
+}
+
+#footer-content .social {
+  margin-top: 30px;
+}
+
+#footer-content i {
+  text-align: center;
+  padding: 0 14px;
+}
+
+#footer .title {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.screen-footer {
+  min-height: calc(100vh - 70px);
+}
+
+// Avatar
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+.avatar-large {
+  width: 70px;
+  border-radius: 50%;
+}
+
