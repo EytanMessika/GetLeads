@@ -191,6 +191,7 @@ text-decoration: none;
   border-color: #23527c;
   opacity: 0.85;
   transition: all 0.2s ease;
+  padding: 7px 30px;
 }
 
 /* Navbar dropdown menu */
