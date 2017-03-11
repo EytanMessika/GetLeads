@@ -143,11 +143,12 @@ text-decoration: none;
   font-weight: bold;
   font-size: 16px;
   transition: all 0.2s ease;
-  &:hover {
+}
+.navbar-white-link:hover {
     color: #4F92F1;
     text-decoration: none;
-  }
 }
+
 .navbar-black-link {
   margin-right: 60px;
   letter-spacing: 0.05em;
@@ -155,12 +156,13 @@ text-decoration: none;
   opacity: 0.8;
   font-weight: bold;
   font-size: 16px;
-  transition: all 0.2s ease;
-  &:hover {
-    color: $mint;
+  transition: all 0.2s ease; }
+
+ .navbar-black-link:hover {
+    color: #4F92F1;
     text-decoration: none;
-  }
 }
+
 
 #contactez-btn {
   background: #23527c !important;
