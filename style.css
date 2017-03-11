@@ -278,6 +278,10 @@ text-decoration: none;
   margin-bottom: 20px;
 }
 
+#margined-top {
+  margin-top: 10px;
+}
+
 #reassurance {
   p {
     font-size: 14px;
